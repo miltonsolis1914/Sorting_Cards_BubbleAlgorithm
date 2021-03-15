@@ -21,7 +21,7 @@ let deck = [];
 const selectSort = arr => {
   let min = 0;
   while (min < arr.length - 1) {
-    for (let i = min + 1; i < arr.length - 1; i++) {
+    for (let i = min + 1; i < arr.length; i++) {
       if (arr[min].num > arr[i].num) {
         let aux = arr[min];
         arr[min] = arr[i];
